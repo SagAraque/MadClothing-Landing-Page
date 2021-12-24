@@ -1,0 +1,130 @@
+.container-fluid{height: auto;}
+.displayNone{display: none;}
+
+.sectionTitle h2{
+    font-size: calc(1.2rem + 0.8vw);
+    font-weight: 700;
+    margin: 1em 0 1em 0;
+    text-align: center;
+}
+
+/*---- Header ----*/
+
+#headerContainer{
+    margin-top:3.5em ;
+    max-height: 43.75rem;
+    padding: 5% 0.625em;
+    background:#d2a2a2 url("../img/backgroundForm.jpg") no-repeat 0px 80%;
+    background-size: cover;
+}
+#headerContent div h4, label{
+    font-size: calc(0.3rem + 1vw);
+    font-weight: 700;
+}
+#headerContent p{
+    font-size: calc(0.3rem + 0.5vw);
+    font-weight: 700;
+}
+#headerContent h1{
+    font-size: calc(0.3rem + 2.7vw);
+    font-weight: 700;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    max-width: 40rem
+}
+#headerContent form{width: 72%;}
+input{margin-right: 2em;}
+
+/*----- Product cards -----*/
+
+.card{width: 27rem;}
+.cardContainer{margin: 0.625em 0;}
+.card-image-top{position:relative;}
+.card-title{
+    font-size:calc(0.6rem + 0.6vw);
+    min-height: 28px;
+    margin-bottom: 0;
+}
+.discountTag{
+    position: absolute;
+    background-color: #d2a2a2;
+    padding: 0.313em;
+    font-weight: 600;
+    z-index: 2;
+    width: 8em;
+    text-align: center;
+    left: calc(100% - 8em);
+    font-size: calc(0.5rem + 0.5vw);
+    border-bottom-left-radius: 0.4em;
+}
+.oldPrice, .newPrice{
+    font-size: calc(0.7rem + 0.55vw);
+    font-weight: 700;
+}
+.newPrice{
+    color: #d2a2a2;
+    margin: 1em;
+}
+.oldPrice{
+    color: rgba(155, 155, 155, 0.541);
+    text-decoration: line-through;
+    font-size: calc(0.5rem + 0.85vw);
+}
+
+.lastUnitsContainer{
+    width: 95%;
+    height: 5px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 0.313rem;
+    overflow: hidden;
+}
+.lastUnitsBar{
+    background-color: #d2a2a2;
+    height: 5px;
+    width: 12%;
+}
+.cardContainer:nth-of-type(2) .card-body .lastUnitsContainer .lastUnitsBar{width: 25%;}
+.cardContainer:nth-of-type(3) .card-body .lastUnitsContainer .lastUnitsBar{width: 33%;}
+.cardContainer:nth-of-type(4) .card-body .lastUnitsContainer .lastUnitsBar{width: 75%;}
+.cardContainer:nth-of-type(5) .card-body .lastUnitsContainer .lastUnitsBar{width: 56%;}
+.cardContainer:nth-of-type(6) .card-body .lastUnitsContainer .lastUnitsBar{width: 87%;}
+.lastUnitsTitle{
+    font-size: calc(0.6rem + 0.5vw);
+    margin-bottom: 0.1em;
+}
+#productCards .cardContainer .card:hover{box-shadow:0 0 0.6rem 0 rgba(0,0,0,0.2);}
+
+/*----- Info cards -----*/
+
+#infoCards .cardContainer .card .card-body .card-text{
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
+}
+#infoCards .cardContainer .card .card-body .card-title{
+    font-size: calc(1.3rem + 0.6vw);
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+
+/*----- Pie de página -----*/
+
+footer{min-height: 5rem;}
+#footerForm button{
+    background-color: transparent;
+    border-color: #d2a2a2;
+    color: #d2a2a2;
+}
+
+#socialMediaContainer h4, #contactInfoContainer h4{
+    color: white;
+    text-align: center;
+    margin: 5px 0px 15px 0px;
+}
+#contactInfoContainer li{color: white;}
+footer hr{
+    background-color: #d2a2a2;
+    border: 0.05rem solid #d2a2a2;
+    box-sizing: border-box;
+}
