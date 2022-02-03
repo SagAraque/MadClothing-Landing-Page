@@ -30,7 +30,7 @@
     font-weight: 700;
     box-sizing: border-box;
     white-space: pre-wrap;
-    max-width: 40rem
+    max-width: 35rem
 }
 #headerContent form{width: 72%;}
 input{margin-right: 2em;}
